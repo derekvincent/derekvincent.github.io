@@ -19,9 +19,9 @@ A simple and clean blog using the Eleventy engine and the eleventy-duo templates
 - [X] Clean sample blog posts
 - [ ] SEO Setup 
 - [X] Google Analytics Setup 
-- [ ] Setup Utterances for comments
-- [ ] Change the repo name from `kemikal.io` to `derekvincent.github.io`
-- [ ] GitHub pages hosting 
+- [X] Setup Utterances for comments
+- [X] Change the repo name from `kemikal.io` to `derekvincent.github.io`
+- [X] GitHub pages hosting 
 - [ ] GitHub action to publish 
 - [ ] Write content 
 
