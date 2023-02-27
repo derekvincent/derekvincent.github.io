@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
-const isProd = process.env.ELEVENTY_ENV === 'production'
+const isProd = process.env.ELEVENTY_ENV === 'production eleventy';
 
 const manifestPath = path.resolve(
   __dirname,
@@ -28,6 +28,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  //eleventyConfig.addGlobal("isDev", isDev);
+  //eleventyConfig.addGlobal("isProd", isProd);
+
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;
   eleventyConfig.addMarkdownHighlighter((str, language) => {
@@ -39,7 +42,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
-  eleventyConfig.addPassthroughCopy('src/data/posts/**/*.(png|jpg|jpeg|gif|svg|webp|avif)');
+  eleventyConfig.addPassthroughCopy('src/**/*.(png|jpg|jpeg|gif|svg|webp|avif)');
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
   eleventyConfig.addShortcode('bundledcss', function () {
@@ -143,5 +146,6 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
+    isProd: isProd,
   };
 };

@@ -22,7 +22,7 @@ A simple and clean blog using the Eleventy engine and the eleventy-duo templates
 - [X] Setup Utterances for comments
 - [X] Change the repo name from `kemikal.io` to `derekvincent.github.io`
 - [X] GitHub pages hosting 
-- [ ] GitHub action to publish 
+- [X] GitHub action to publish 
 - [ ] Write content 
 
 ## Reference Site 
