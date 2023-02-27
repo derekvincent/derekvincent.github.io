@@ -18,7 +18,19 @@
         {{ site.name }}
       {% endif %}
     </title>
+    <!-- Added Google Analystics -->
+    {% if env.isProd %}
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4VR1HWVVY"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'G-L4VR1HWVVY');
+        </script>
+    {% endif %}
+    <!-- Added Google Analystics -->
     <link rel="icon" type= “image/x-icon” href="/images/favicon.ico">
 
     <meta property="og:title" content="{{  title or site.name | escape }}">

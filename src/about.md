@@ -1,14 +1,12 @@
 ---
-title: About Aidan Charles Powell
+title: About Me
 layout: about.njk
-name: Aidan Charles Powell
+name: Me
 image: '/images/me.jpeg'
 ---
 
-Aidan Charles Powell is a 23-year-old health centre receptionist who enjoys watching television, eating out and social media. He is generous and giving, but can also be very rude and a bit lazy.
+I am Technologist and Solution Architect working primarily in the SAP enterprise space for the past three decades. An area I have always focused on and specialized in was the boundaries between what was generally considered traditional enterprise and the new hotness in technology. Because of this, I find myself constantly hacking away at new technology and trends to see how they can be applied in different spaces. 
 
-He is a Jedi who defines himself as straight. He has a degree in medicine. He is a vegetarian. He is obsessed with vintage dresses.
+Aside from playing with computers, I am also a [rally co-driver](https://www.rallysputnik.com/), rally event co-ordinator and planner. I also always seem to spend more time than planned with the kids at barns, horse shows, ice rinks, and race tracks. 
 
-He grew up in a middle class neighbourhood. After his mother died when he was young, he was raised by his father
 
-He is currently married to Maureen Erika Quinn. Maureen is 13 years older than him and works as a sales assistant.
