@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 const isDev = process.env.ELEVENTY_ENV === 'development';
-const isProd = process.env.ELEVENTY_ENV === 'production eleventy';
+const isProd = process.env.ELEVENTY_ENV === 'production';
 
 const manifestPath = path.resolve(
   __dirname,
@@ -27,9 +27,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(readingTime);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
-
-  //eleventyConfig.addGlobal("isDev", isDev);
-  //eleventyConfig.addGlobal("isProd", isProd);
 
   // setup mermaid markdown highlighter
   const highlighter = eleventyConfig.markdownHighlighter;
@@ -146,6 +143,5 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    isProd: isProd,
   };
 };

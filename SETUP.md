@@ -17,12 +17,13 @@ A simple and clean blog using the Eleventy engine and the eleventy-duo templates
 
 - [X] About Me 
 - [X] Clean sample blog posts
-- [ ] SEO Setup 
+- [X] SEO Setup 
 - [X] Google Analytics Setup 
 - [X] Setup Utterances for comments
 - [X] Change the repo name from `kemikal.io` to `derekvincent.github.io`
 - [X] GitHub pages hosting 
 - [X] GitHub action to publish 
+- [X] Add Draft function (need to update Eleventy first)
 - [ ] Write content 
 
 ## Reference Site 
@@ -39,3 +40,4 @@ A simple and clean blog using the Eleventy engine and the eleventy-duo templates
 - [Utterances - GitHub-based blog comment system](https://utteranc.es/)
 - [Notion to Elventy via the Notion API](https://www.falldowngoboone.com/blog/from-notion-to-eleventy-part-1-the-notion-api/)
 - [GitHub Repo for the above site with some good ideas](https://github.com/falldowngoboone/falldowngoboone-com)  
+- [Eleventy Draft functions](https://www.11ty.dev/docs/quicktips/draft-posts/)

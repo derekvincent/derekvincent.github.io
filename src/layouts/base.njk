@@ -53,7 +53,7 @@
       <script>mermaid.initialize({startOnLoad:true});</script>
     {# Add mermaid -- end #}
     {# Added Google Analystics -- start #}
-    {# {% if isProd %} #}
+    {% if env.isProd %}
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-L4VR1HWVVY"></script>
         <script>
@@ -63,9 +63,6 @@
 
           gtag('config', 'G-L4VR1HWVVY');
         </script>
-    {# {% endif %} #}
-    {% if isProd %}
-      <!-- Hello -->
     {% endif %}
     {# Added Google Analystics -- end #}
   </head>
