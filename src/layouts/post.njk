@@ -1,6 +1,8 @@
 ---
 layout: base.njk
 ---
+{% set encodedPostUrl %}{{- site.url -}}{{- page.url | encodeUriComponent -}}{% endset %}
+{% set encodedPostTitle %}{{- title | encodeUriComponent -}}{% endset %}
 
 <article class="post">
   <header class="post__header">
@@ -17,7 +19,6 @@ layout: base.njk
   <main class="post__content">
     {{ content | safe }}
   </main>
-
   <aside class="post__aside">
     <div class="post__tags">
       {% for tag in tags | pageTags %}
@@ -25,7 +26,7 @@ layout: base.njk
         <a href="{{ tagUrl | url }}">#{{ tag }}</a>
       {% endfor %}
     </div>
-
+    {% include "post-insert.njk" %}
     {% include "utterances.njk" %}
     
     <nav class="post__pagination">

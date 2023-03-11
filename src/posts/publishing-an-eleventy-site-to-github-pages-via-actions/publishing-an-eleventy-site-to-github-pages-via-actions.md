@@ -1,8 +1,9 @@
 ---
 title: Publishing an Eleventy site to GitHub Pages via Actions
-description: Eleventy publishing using GitHub Pages and the new GutHub actions workflow 
+description: Setup to publish an Eleventy-based website to GitHub Pages using the new  GitHub actions workflow method | kemikal.io
 permalink: posts/{{ title | slug }}/index.html
 date: '2023-03-05'
+socialcard: true
 tags: [eleventy, deploy, github, devops ]
 ---
 

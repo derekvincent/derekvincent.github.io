@@ -40,6 +40,13 @@
       <meta name="description" content="{{ desc | escape }}"/>
     {% endif %}
 
+    {% if socialcard %}
+      {% from "social-cards.njk" import socialCardUrl with context%}
+      {% if socialCardUrl %}
+        {% set socialImage = socialCardUrl%}
+      {% endif %}
+    {% endif %}
+
     {% if not socialImage %}
       {% set socialImage = site.defaultSocialImage %}
     {% endif %}

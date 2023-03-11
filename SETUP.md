@@ -23,7 +23,9 @@ A simple and clean blog using the Eleventy engine and the eleventy-duo templates
 - [X] Change the repo name from `kemikal.io` to `derekvincent.github.io`
 - [X] GitHub pages hosting 
 - [X] GitHub action to publish 
-- [X] Add Draft function (need to update Eleventy first)
+- [ ] Add Draft function (need to update Eleventy first)
+- [X] Added dynamic social share cards 
+- [X] Added share content on Twitter and LinkedIn from posts
 - [ ] Write content 
 
 ## Reference Site 
