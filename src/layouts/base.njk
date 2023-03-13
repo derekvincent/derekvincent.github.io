@@ -52,7 +52,9 @@
     {% endif %}
     {% if socialImage %}
       <meta property="og:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
+      <meta property="og:image:alt" content="{{ desc }}">
       <meta name="twitter:image" content="{{ socialImage | url | absoluteUrl(site.url) }}"/>
+      <meta name="twitter:image" content="{{ desc }}">"
     {% endif %}
 
     {# Add mermaid -- start #}
