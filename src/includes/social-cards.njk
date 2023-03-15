@@ -1,7 +1,4 @@
-{% set desc = description %}
-{% if not desc %}
-    {% set desc = content | striptags | truncate(140) %}
-{% endif %}
+{% set desc = description | striptags | truncate(140) %}
 
 {% set imgTitle %}{{ title | slug }}{% endset %}
 {% set socialHtml%}
