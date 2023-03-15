@@ -4,7 +4,7 @@ description: Setup to publish an Eleventy-based website to GitHub Pages using th
 permalink: posts/{{ title | slug }}/index.html
 date: '2023-03-05'
 socialcard: true
-tags: [eleventy, deploy, github, devops ]
+tags: [eleventy, 11ty, deploy, github, devops ]
 ---
 
 It seems fitting that the first post for my new blog is documenting setting up a new Eleventy site and using the new beta Github Actions for Pages deployment. The workflow action code below is based on the sample GitHub Pages Jekyll workflow that is provided. 
