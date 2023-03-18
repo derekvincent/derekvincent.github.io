@@ -41,8 +41,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.addPassthroughCopy({ 'src/images': 'images' });
-  eleventyConfig.addPassthroughCopy('src/**/*.(png|jpg|jpeg|gif|svg|webp|avif)');
-  eleventyConfig.addPassthroughCopy("./src/social-share/");
+  eleventyConfig.addPassthroughCopy('src/post/**/*.(png|jpg|jpeg|gif|svg|webp|avif)');
+  eleventyConfig.addPassthroughCopy("src/social-share/");
   eleventyConfig.setBrowserSyncConfig({ files: [manifestPath] });
 
   eleventyConfig.addShortcode('bundledcss', function () {
