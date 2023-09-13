@@ -4,7 +4,7 @@ description: Creating and embedding a custom dynamically generating social share
 permalink: posts/{{ title | slug }}/index.html
 date: '2023-03-15'
 socialcard: true
-tags: [eleventy, deploy, social share, social cards, 11ty]
+tags: [eleventy, deploy, "social share", "social cards", 11ty]
 ---
 
 As I was going through setting up the new site I needed to sort out the default Eleventy Duo themes social share card. As I was looking into this I decided I really wanted to have cards that are customized per page on the off chance someone wants to share my thoughts. An example below is what I am referring to as a dynamic card, where the card is generated per page/post and contains specifics such as the title and description. I did decide on a default static card for the main site.  

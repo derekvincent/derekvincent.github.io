@@ -3,7 +3,6 @@ title: Automating Email Orders with Python and AWS Lambda
 description: Automating an email-based order process between a retailer and a drop shipper with an AWS Lambda function and customer Python automations
 permalink: posts/{{ title | slug }}/index.html
 date: '2023-04-22'
-draft: true
 socialcard: true
 tags: [aws, serverless, s3, lambda, python, automation]
 ---
